@@ -5,7 +5,7 @@ public class Program{
     private String model;
     private int predkosc;
 
-    public Samochod(String producent, String model, int predkoscMax) {
+    public Program(String producent, String model, int predkoscMax) {
         this.predkoscMax = predkoscMax > 0 ? predkoscMax : 0;
         this.producent = producent != null ? producent : "nieznany";
         this.model = model != null ? model : "model";
