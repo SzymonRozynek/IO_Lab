@@ -1,4 +1,4 @@
-public class Samochod {
+public class Program{
 
     private int predkoscMax;
     private String producent;
