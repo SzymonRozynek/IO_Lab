@@ -1,7 +1,7 @@
 public class Program{
 
     private int predkoscMax;
-    private String producent;
+    private String marka;
     private String model;
     private int predkosc;
 
@@ -27,7 +27,7 @@ public class Program{
     }
 
     public String toString() {
-        return this.producent + " " + this.model;
+        return this.marka + " " + this.model;
     }
 
 }
