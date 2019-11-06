@@ -1,11 +1,11 @@
-public class Samochod {
+public class Program{
 
     private int predkoscMax;
-    private String producent;
+    private String marka;
     private String model;
     private int predkosc;
 
-    public Samochod(String producent, String model, int predkoscMax) {
+    public Program(String producent, String model, int predkoscMax) {
         this.predkoscMax = predkoscMax > 0 ? predkoscMax : 0;
         this.producent = producent != null ? producent : "nieznany";
         this.model = model != null ? model : "model";
@@ -27,7 +27,7 @@ public class Samochod {
     }
 
     public String toString() {
-        return this.producent + " " + this.model;
+        return this.marka + " " + this.model;
     }
 
 }
